@@ -90,7 +90,7 @@ This is open research. Contributions welcome:
 ## Contact
 
 Dr. Hillary Danan  
-Email: danan.hillary@gmail.com  
+Email: hillarydanan@gmail.com  
 LinkedIn: [/in/hillarydanan](https://linkedin.com/in/hillarydanan)
 
 -----
