@@ -1,0 +1,68 @@
+{
+  "config": {
+    "image_size": 224,
+    "hex_radius": 8.0,
+    "square_patch_size": 16,
+    "batch_size": 32,
+    "device": "cpu",
+    "seed": 42,
+    "hex_density": 0.9068996821171089,
+    "square_density": 0.7853981633974483,
+    "theoretical_improvement": 15.470053837925146
+  },
+  "timestamp": "2025-07-02T12:58:02.942794",
+  "coverage_analysis": {
+    "hexagonal": {
+      "theoretical_hex_density": 0.9068996821171089,
+      "theoretical_square_density": 0.7853981633974483,
+      "theoretical_improvement_percent": 15.470053837925146,
+      "num_hexagons": 340,
+      "num_squares": 196,
+      "fully_contained_hexagons": 270,
+      "boundary_hexagons": 70,
+      "hex_to_square_ratio": 1.7346938775510203
+    },
+    "square": {
+      "patch_size": 16,
+      "patches_per_row": 14,
+      "total_patches": 196
+    },
+    "comparison": {
+      "hex_to_square_patch_ratio": 1.7346938775510203,
+      "theoretical_coverage_improvement": 15.470053837925146
+    }
+  },
+  "extraction_benchmark": {
+    "hexagonal": {
+      "mean_time": 0.01087122917175293,
+      "std_time": 0.00010771797377651634,
+      "extractions": 340,
+      "boundary_cases": 70
+    },
+    "square": {
+      "mean_time": 0.0016956472396850587,
+      "std_time": 7.182104608746645e-05,
+      "extractions": 196
+    },
+    "relative_speed": 6.41125637297773
+  },
+  "model_comparison": {
+    "hexagonal": {
+      "parameters": 11073408,
+      "patches": 340,
+      "patch_dim": 768
+    },
+    "square": {
+      "parameters": 11018112,
+      "patches": 196,
+      "patch_dim": 768
+    },
+    "parameter_ratio": 1.0050186456627053
+  },
+  "key_findings": {
+    "coverage_improvement": 15.470053837925146,
+    "patch_ratio": 1.7346938775510203,
+    "extraction_overhead": 6.41125637297773,
+    "parameter_overhead": 1.0050186456627053
+  }
+}
