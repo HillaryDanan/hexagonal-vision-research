@@ -1,5 +1,8 @@
 # Hexagonal Vision Transformer Research
 
+> Part of the [Cognitive Architectures for AI](https://github.com/HillaryDanan/cognitive-architectures-ai) research program
+
+
 An exploration of why vision transformers don't use hexagonal patches despite mathematical and biological evidence for their superiority.
 
 ## Research Motivation
